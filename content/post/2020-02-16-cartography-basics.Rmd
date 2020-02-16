@@ -25,3 +25,4 @@ projects: []
 Maps are media with which we communicate our conceptions of spatial relationships. In order to create an effective map, we have to understand what it means to be an effective communicater.
 
 ![https://www.open.edu/openlearn/](/img/basics-of-cartography/cs-of-communication.jpg){width=50%, fig.cap = "https://www.open.edu/openlearn/"}
+
