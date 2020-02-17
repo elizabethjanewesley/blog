@@ -6,7 +6,7 @@ slug: cartography-basics
 output:
   blogdown::html_page:
     toc: true
-    toc_float: true
+profile: false
 categories: []
 tags:
   - GIS
@@ -73,3 +73,61 @@ knitr::include_graphics("/img/basics-of-cartography/elements-of-map.gif")
 
 # **Basics of a good map**
 
+In no particular order, here are some tips for making an effective, attractive, and honest map:
+
+* Have an informative title. If your map shows all the counties in Texas that are predominately Democratic, don't name it 'Map of Texas'. Name it 'Predominantly Democratic Texas Counties'!
+
+* Your legend does not need to be titled 'Legend'. If you are showing Democratic counties in blue and Republican counties in red, your legend might be named 'Political party affiliation'. Often, the legend does not require a title at all.
+
+* Make sure that the legend entries have informative names. Seeing 'tx_counties_dem' looks sloppy and may be confusing. Rename layers in the **Table of Contents** so that there is no ambiguity.
+
+* Make full use of the space on the page. While you don't want your map to be crowded, there is no reason to leave excesive white space around the map figure. Zooming in on the data of interest is often a good place to start.
+
+* Experiment with different arrangements of your map elements. Not only should they fit well together, there is an information hierarchy that should be visually enforced. The title and the data you want to emphasize are the most important; they should stand out!
+
+```{r echo = F, fig.cap="https://gistbok.ucgis.org/bok-topics/visual-hierarchy-and-layout"}
+knitr::include_graphics("/img/basics-of-cartography/balance.jpg")
+```
+
+* You can also change the page layout to be either landscape or portrait. Depending on the shape of your area of interest, one may be more appropriate.
+
+* Make sure that your data is visible. If you are mapping points that represent all the schools in a Texas city, don't make the points so large that you can't make out their location. Likewise, don't make them so small that they are difficult to see.
+
+* Scale bars are adjustable. You can change the number of subdivisions as well as the units. Make them simple and legible! They should be easy to use. Also, depending on the map projection (if it does not preserve distance) and the purpose of the map, a scale bar may not be needed.
+
+* Likewise, a north arrow is not always needed. If the map projection does not preserve direction, a north arrow is innappropriate as north varies over the map.
+
+* It is a good practice to include the source of your data on the map. The text should be small and unobtrusive but it is important that you be transparent and show that your message is trustworthy.
+
+* CHECK YOUR SPELLING
+
+* Before you export your map as an image, make sure to clear any selections you have map. Selected features in a GIS are highlighted--this will show up in your final map document and potentially distract from your message.
+
+* As we move forward by learning about different kinds of maps there will be many more things to add to this list. However, these are basic principles that apply to every map that you will make.
+
+
+# **A few good resources**
+
+Again, in no particular order, are some online resources that may be helpful in developing your cartographic skill. Just like public figures employ speach writers to ensure that their message resonates, mapmakers need to employ cartographic skills to ensure that their message is properly interpreted. A quality map is not only informative but also beautiful and inspiring!
+
+* [Cartography and Visualization--UCGIS](https://gistbok.ucgis.org/knowledge-area/cartography-and-visualization)
+
+* [When Maps Lie--City Lab](https://www.citylab.com/design/2015/06/when-maps-lie/396761/)
+
+* [Good and Bad Maps--Penn State](https://sites.psu.edu/swabmaps/2014/03/28/good-and-bad-maps/)
+
+* [ESRI Free Cartography Course--April 22-June 3, 2020](https://www.esri.com/training/catalog/596e584bb826875993ba4ebf/cartography/?adumkts=gbd&aduse=education&aduin=higher_ed&aduc=pr&utm_Source=social&aduca=GBD17higher_ed_mooc_carto&aduco=RegisterCarto_ArcNews&adut=August_2017)
+
+* [Maps We Love-ESRI](https://www.esri.com/en-us/maps-we-love/overview)
+
+* [Edward Tufte--A master of data visualization](https://www.edwardtufte.com/tufte/)
+
+# **Finally, a couple of my all-time favorite maps**
+
+```{r echo = F, fig.cap="Napolean's March to Moscow, Charles Joseph Minard, 1869, https://www.edwardtufte.com/tufte/"}
+knitr::include_graphics("/img/basics-of-cartography/napolean.gif")
+```
+
+```{r echo = F, fig.cap="The alluvial valley of the lower Mississippi River, Harold Fisk, 1944, http://www.radicalcartography.net/index.html?fisk"}
+knitr::include_graphics("/img/basics-of-cartography/sm_fisk02.jpg")
+```

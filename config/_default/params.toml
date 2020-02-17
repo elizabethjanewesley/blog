@@ -267,7 +267,3 @@ plugins_js  = []
   google_analytics = ""
   google_tag_manager = ""
   
-############################
-## Remove author profile from bottom of page
-############################
-profile = false
