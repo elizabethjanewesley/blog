@@ -3,6 +3,10 @@ title: Cartography basics
 author: Elizabeth Wesley
 date: '2020-02-16'
 slug: cartography-basics
+output:
+  blogdown::html_page:
+    toc: true
+    toc_float: true
 categories: []
 tags:
   - GIS
@@ -26,46 +30,46 @@ knitr::opts_chunk$set(collapse = TRUE, out.width = "100%", fig.align = "center")
 
 # **Elements of effective communication**
 
-Maps are media with which we communicate our conceptions of spatial relationships. In order to create an effective map, we have to understand what it means to be an effective communicator. Having a clear idea of the map's message is essential. Before you can decide how to say something you need to know what you want to say.
+Maps are media with which we communicate our conceptions of spatial relationships. In order to create an effective map, we have to understand what it means to be an effective communicator. Having a clear idea of the map's message is essential. Before you can decide how to say something you need to know what you want to say. 
+
+* What is your message? 
+* Who are you talking to?
 
 <center>
 ```{r echo=F, fig.cap="https://www.open.edu/openlearn"}
 knitr::include_graphics("/img/basics-of-cartography/cs-of-communication.jpg")
 ```
-<\center>
+
 
 # **Elements of design**
 
 Maps are visual representations of often complex ideas and relationships. The elements of design are the tools at your disposal for effective visual communication. While the interpretation of language is linear--in the case of English it happens from left to right and from bottom to top--visual interpretation does not have a prescribed order. Using design, you must guide the viewer through the map so that they interpret the map's meaning in the way that you intend.
 
 <center>
-
 ```{r echo=F, fig.cap="https://splitcomplementary.blogspot.com/"}
 
 knitr::include_graphics("/img/basics-of-cartography/elements-of-design.jpg")
 ```
-<\center>
 
 # **Principles of design**
 
 The principles of design are the ways that you can use the elements of design. These are the ways that you will vary the elements in order to convey the message of your map.
 
 <center>
-
 ```{r echo=F, fig.cap="https://splitcomplementary.blogspot.com/"}
 
 knitr::include_graphics("/img/basics-of-cartography/principles-of-design.jpg")
 ```
-<\center>
 
 # **Elements of a map**
 
-More specific to cartography, there are elements common to most maps. While not all maps need to contain all the elements, they all require some. Map elements provide information essential to the interpretation of the map. All maps should be able to stand on their own, meaning that a viewer requires no additional information to understand the map than is available on the map itself.
+Most maps have many elements in common. While not all maps need to contain all the elements, they all require some. Map elements provide information essential to the interpretation of the map. All maps should be able to stand on their own, meaning that a viewer requires no additional information to understand the map than is available on the map itself. If someone found your map on the ground would they know what it meant?
 
 <center>
-
 ```{r echo=F, fig.cap="https://djjr-courses.wikidot.com/"}
 
 knitr::include_graphics("/img/basics-of-cartography/elements-of-map.gif")
 ```
-<\center>
+
+# **Basics of a good map**
+
