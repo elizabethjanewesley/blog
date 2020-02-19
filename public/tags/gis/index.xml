@@ -26,6 +26,7 @@
 &lt;li&gt;&lt;a href=&#34;#principles-of-design&#34;&gt;&lt;strong&gt;Principles of design&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#elements-of-a-map&#34;&gt;&lt;strong&gt;Elements of a map&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#basics-of-a-good-map&#34;&gt;&lt;strong&gt;Basics of a good map&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#examples&#34;&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#a-few-good-resources&#34;&gt;&lt;strong&gt;A few good resources&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#finally-a-couple-of-my-all-time-favorite-maps&#34;&gt;&lt;strong&gt;Finally, a couple of my all-time favorite maps&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -106,6 +107,31 @@ Figure 5: &lt;a href=&#34;https://gistbok.ucgis.org/bok-topics/visual-hierarchy-
 &lt;li&gt;&lt;p&gt;As we move forward by learning about different kinds of maps there will be many more things to add to this list. However, these are basic principles that apply to every map that you will make.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;div id=&#34;examples&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;These are examples of a basic GIS map. The primary purpose of this kind of map to is to relay information; however, maps must be readable to get their point across!&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:bad-map&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/img/basics-of-cartography/BadMaps-001.jpeg&#34; alt=&#34;A bad GIS map&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 6: A bad GIS map
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This map (Fig. &lt;a href=&#34;#fig:bad-map&#34;&gt;6&lt;/a&gt;) is very bad. Almost unreadable and definitely untrustworthy. What is it even about?&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:better-map&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/img/basics-of-cartography/BadMaps-002.jpeg&#34; alt=&#34;A better (but still bad!) GIS map&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 7: A better (but still bad!) GIS map
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This map (Fig. &lt;a href=&#34;#fig:better-map&#34;&gt;7&lt;/a&gt;) is better but still not great. We still don’t know what the point is.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:best-map&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/img/basics-of-cartography/BadMaps-003.jpeg&#34; alt=&#34;A pretty good GIS map&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 8: A pretty good GIS map
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This map (Fig. &lt;a href=&#34;#fig:best-map&#34;&gt;8&lt;/a&gt;) could certainly be improved but includes all the elements necessary to interpret it. If you found this map on the ground, it is reasonable to assume you be able to find a suitable space for your bookstore!&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;a-few-good-resources&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;&lt;strong&gt;A few good resources&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;Again, in no particular order, are some online resources that may be helpful in developing your cartographic skill. Just like public figures employ speach writers to ensure that their message resonates, mapmakers need to employ cartographic skills to ensure that their message is properly interpreted. A quality map is not only informative but also beautiful and inspiring!&lt;/p&gt;
@@ -123,13 +149,13 @@ Figure 5: &lt;a href=&#34;https://gistbok.ucgis.org/bok-topics/visual-hierarchy-
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-6&#34;&gt;&lt;/span&gt;
 &lt;img src=&#34;/img/basics-of-cartography/napolean.gif&#34; alt=&#34;Napolean&#39;s March to Moscow, Charles Joseph Minard, 1869, https://www.edwardtufte.com/tufte/&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figure 6: Napolean’s March to Moscow, Charles Joseph Minard, 1869, &lt;a href=&#34;https://www.edwardtufte.com/tufte/&#34; class=&#34;uri&#34;&gt;https://www.edwardtufte.com/tufte/&lt;/a&gt;
+Figure 9: Napolean’s March to Moscow, Charles Joseph Minard, 1869, &lt;a href=&#34;https://www.edwardtufte.com/tufte/&#34; class=&#34;uri&#34;&gt;https://www.edwardtufte.com/tufte/&lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-7&#34;&gt;&lt;/span&gt;
 &lt;img src=&#34;/img/basics-of-cartography/sm_fisk02.jpg&#34; alt=&#34;The alluvial valley of the lower Mississippi River, Harold Fisk, 1944, http://www.radicalcartography.net/index.html?fisk&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figure 7: The alluvial valley of the lower Mississippi River, Harold Fisk, 1944, &lt;a href=&#34;http://www.radicalcartography.net/index.html?fisk&#34; class=&#34;uri&#34;&gt;http://www.radicalcartography.net/index.html?fisk&lt;/a&gt;
+Figure 10: The alluvial valley of the lower Mississippi River, Harold Fisk, 1944, &lt;a href=&#34;http://www.radicalcartography.net/index.html?fisk&#34; class=&#34;uri&#34;&gt;http://www.radicalcartography.net/index.html?fisk&lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;

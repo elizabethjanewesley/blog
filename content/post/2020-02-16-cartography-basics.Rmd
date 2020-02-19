@@ -105,6 +105,24 @@ knitr::include_graphics("/img/basics-of-cartography/balance.jpg")
 
 * As we move forward by learning about different kinds of maps there will be many more things to add to this list. However, these are basic principles that apply to every map that you will make.
 
+# **Examples**
+
+These are examples of a basic GIS map. The primary purpose of this kind of map to is to relay information; however, maps must be readable to get their point across! 
+
+```{r bad-map, echo = F, fig.cap="A bad GIS map"}
+knitr::include_graphics("/img/basics-of-cartography/BadMaps-001.jpeg")
+```
+This map (Fig. \@ref(fig:bad-map)) is very bad. Almost unreadable and definitely untrustworthy. What is it even about?
+
+```{r better-map, echo = F, fig.cap="A better (but still bad!) GIS map"}
+knitr::include_graphics("/img/basics-of-cartography/BadMaps-002.jpeg")
+```
+This map (Fig. \@ref(fig:better-map)) is better but still not great. We still don't know what the point is.
+
+```{r best-map, echo = F, fig.cap="A pretty good GIS map"}
+knitr::include_graphics("/img/basics-of-cartography/BadMaps-003.jpeg")
+```
+This map (Fig. \@ref(fig:best-map)) could certainly be improved but includes all the elements necessary to interpret it. If you found this map on the ground, it is reasonable to assume you be able to find a suitable space for your bookstore!
 
 # **A few good resources**
 
