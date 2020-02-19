@@ -30,7 +30,7 @@ knitr::opts_chunk$set(collapse = TRUE, out.width = "100%", fig.align = "center")
 
 # **Elements of effective communication**
 
-Maps are media with which we communicate our conceptions of spatial relationships. In order to create an effective map, we have to understand what it means to be an effective communicator. Having a clear idea of the map's message is essential. Before you can decide how to say something you need to know what you want to say. 
+Maps are media with which we communicate our conceptions of spatial relationships. In order to create an effective map we have to understand what it means to be an effective communicator. Having a clear idea of the map's message is essential. Before you can decide how to say something you need to know what you want to say. 
 
 * What is your message? 
 * Who are you talking to?
@@ -43,7 +43,7 @@ knitr::include_graphics("/img/basics-of-cartography/cs-of-communication.jpg")
 
 # **Elements of design**
 
-Maps are visual representations of often complex ideas and relationships. The elements of design are the tools at your disposal for effective visual communication. While the interpretation of language is linear--in the case of English it happens from left to right and from bottom to top--visual interpretation does not have a prescribed order. Using design, you must guide the viewer through the map so that they interpret the map's meaning in the way that you intend.
+Maps are visual representations of often complex ideas and relationships. The elements of design are the tools at your disposal for effective visual communication. While the interpretation of language is linear---inthe case of English it happens from left to right and from bottom to top---visual interpretation does not have a prescribed order. Using design, you must guide the viewer through the map so that they interpret the map's meaning in the way that you intend.
 
 <center>
 ```{r echo=F, fig.cap="https://splitcomplementary.blogspot.com/"}
@@ -101,7 +101,7 @@ knitr::include_graphics("/img/basics-of-cartography/balance.jpg")
 
 * CHECK YOUR SPELLING
 
-* Before you export your map as an image, make sure to clear any selections you have map. Selected features in a GIS are highlighted--this will show up in your final map document and potentially distract from your message.
+* Before you export your map as an image, make sure to clear any selections you have map. Selected features in a GIS are highlighted---this will show up in your final map document and potentially distract from your message.
 
 * As we move forward by learning about different kinds of maps there will be many more things to add to this list. However, these are basic principles that apply to every map that you will make.
 
@@ -128,19 +128,21 @@ This map (Fig. \@ref(fig:best-map)) could certainly be improved but includes all
 
 Again, in no particular order, are some online resources that may be helpful in developing your cartographic skill. Just like public figures employ speach writers to ensure that their message resonates, mapmakers need to employ cartographic skills to ensure that their message is properly interpreted. A quality map is not only informative but also beautiful and inspiring!
 
-* [Cartography and Visualization--UCGIS](https://gistbok.ucgis.org/knowledge-area/cartography-and-visualization)
+* [Cartography and Visualization---UCGIS](https://gistbok.ucgis.org/knowledge-area/cartography-and-visualization)
 
-* [When Maps Lie--City Lab](https://www.citylab.com/design/2015/06/when-maps-lie/396761/)
+* [When Maps Lie---City Lab](https://www.citylab.com/design/2015/06/when-maps-lie/396761/)
 
-* [Good and Bad Maps--Penn State](https://sites.psu.edu/swabmaps/2014/03/28/good-and-bad-maps/)
+* [Good and Bad Maps---Penn State](https://sites.psu.edu/swabmaps/2014/03/28/good-and-bad-maps/)
 
-* [ESRI Free Cartography Course--April 22-June 3, 2020](https://www.esri.com/training/catalog/596e584bb826875993ba4ebf/cartography/?adumkts=gbd&aduse=education&aduin=higher_ed&aduc=pr&utm_Source=social&aduca=GBD17higher_ed_mooc_carto&aduco=RegisterCarto_ArcNews&adut=August_2017)
+* [ESRI Free Cartography Course (online)---April 22-June 3, 2020](https://www.esri.com/training/catalog/596e584bb826875993ba4ebf/cartography/?adumkts=gbd&aduse=education&aduin=higher_ed&aduc=pr&utm_Source=social&aduca=GBD17higher_ed_mooc_carto&aduco=RegisterCarto_ArcNews&adut=August_2017)
 
-* [Maps We Love-ESRI](https://www.esri.com/en-us/maps-we-love/overview)
+* [Maps We Love---ESRI](https://www.esri.com/en-us/maps-we-love/overview)
 
-* [Edward Tufte--A master of data visualization](https://www.edwardtufte.com/tufte/)
+* [Edward Tufte---A master of data visualization](https://www.edwardtufte.com/tufte/)
 
 # **Finally, a couple of my all-time favorite maps**
+
+Although these are not the kind of informational maps that are usually map in a GIS, they certainly illustrate the possibilities of cartography!
 
 ```{r echo = F, fig.cap="Napolean's March to Moscow, Charles Joseph Minard, 1869, https://www.edwardtufte.com/tufte/"}
 knitr::include_graphics("/img/basics-of-cartography/napolean.gif")
