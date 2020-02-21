@@ -43,7 +43,7 @@ knitr::include_graphics("/img/basics-of-cartography/cs-of-communication.jpg")
 
 # **Elements of design**
 
-Maps are visual representations of often complex ideas and relationships. The elements of design are the tools at your disposal for effective visual communication. While the interpretation of language is linear---inthe case of English it happens from left to right and from bottom to top---visual interpretation does not have a prescribed order. Using design, you must guide the viewer through the map so that they interpret the map's meaning in the way that you intend.
+Maps are visual representations of often complex ideas and relationships. The elements of design are the tools at your disposal for effective visual communication. While the interpretation of language is linear---in the case of English it happens from left to right and from top to bottom---visual interpretation does not have a prescribed order. Using design, you must guide the viewer through the map so that they interpret the map's meaning in the way that you intend.
 
 <center>
 ```{r echo=F, fig.cap="https://splitcomplementary.blogspot.com/"}
