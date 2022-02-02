@@ -1,0 +1,65 @@
+---
+title: Alignment & support
+author: Elizabeth Jane Wesley
+date: '2021-01-22'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-01-22T10:59:19-06:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>library(sf)
+library(leaflet)
+library(here)
+library(tidyverse)</p>
+<p>tract &lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>modis_proj &lt;- read_sf(dsn = “Data”, layer = “MODIS_projected”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>modis &lt;- read_sf(dsn = “Data”, layer = “MODIS”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>ls_proj &lt;- read_sf(dsn = “Data”, layer = “LS_30m_projected”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>ls &lt;- read_sf(dsn = “Data”, layer = “LS_30m”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>house &lt;- read_sf(dsn = “Data”, layer = “House”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>leaflet() %&gt;%
+addProviderTiles(providers$Stamen.TonerLines) %&gt;%
+addMarkers(data = house, group = “House”) %&gt;%
+addPolygons(data = ls,
+group = “Landsat 30m”,
+color = “red”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = ls_proj,
+group = “Landsat 30m, projected”,
+color = “orange”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = modis,
+group = “MODIS 1km”,
+color = “yellow”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = modis_proj,
+group = “MODIS 1km, projected”,
+color = “green”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = tract,
+group = “Census tract”,
+color = “blue”, fill = F, opacity = 1, weight = 10) %&gt;%
+addLayersControl(
+overlayGroups = c(“House”,
+“Landsat 30m”,
+“Landsat 30m, projected”,
+“MODIS 1km”,
+“MODIS 1km, projected”,
+“Census tract”),
+options = layersControlOptions(collapsed = FALSE)
+)</p>
