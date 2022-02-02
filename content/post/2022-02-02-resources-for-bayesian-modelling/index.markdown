@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+profile: false
 ---
 
 # Bayesian modeling resources
@@ -25,5 +26,6 @@ In no particular order:
 
 Lemoine, N. P. (2019). Moving beyond noninformative priors: Why and how to choose weakly informative priors in Bayesian analyses. Oikos, 128(7), 912–928. 
 
+[Poisson regression in brms](https://onlinelibrary.wiley.com/doi/epdf/10.1111/lnc3.12439)
 
-
+Winter, B., & Bürkner, P.C. (2021). Poisson regression for linguists: A tutorial introduction to modelling count data with brms. Language and Linguistics Compass, 15(11), e12439. 
