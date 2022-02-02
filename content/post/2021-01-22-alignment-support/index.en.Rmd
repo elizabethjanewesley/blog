@@ -1,0 +1,71 @@
+---
+title: Alignment & support
+author: Elizabeth Jane Wesley
+date: '2021-01-22'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-01-22T10:59:19-06:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+library(sf)
+library(leaflet)
+library(here)
+library(tidyverse)
+
+tract <- read_sf(dsn = "Data", layer = "Census_tract") %>% 
+  st_transform('+proj=longlat +datum=WGS84')
+
+modis_proj <- read_sf(dsn = "Data", layer = "MODIS_projected") %>% 
+  st_transform('+proj=longlat +datum=WGS84')
+
+modis <- read_sf(dsn = "Data", layer = "MODIS") %>% 
+  st_transform('+proj=longlat +datum=WGS84')
+
+ls_proj <- read_sf(dsn = "Data", layer = "LS_30m_projected") %>% 
+  st_transform('+proj=longlat +datum=WGS84')
+
+ls <- read_sf(dsn = "Data", layer = "LS_30m") %>% 
+  st_transform('+proj=longlat +datum=WGS84')
+
+house <- read_sf(dsn = "Data", layer = "House") %>% 
+  st_transform('+proj=longlat +datum=WGS84')
+
+leaflet() %>% 
+  addProviderTiles(providers$Stamen.TonerLines) %>% 
+  addMarkers(data = house, group = "House") %>% 
+  addPolygons(data = ls, 
+              group = "Landsat 30m", 
+              color = "red", fill = F, opacity = 1, weight = 10) %>% 
+  addPolygons(data = ls_proj, 
+              group = "Landsat 30m, projected", 
+              color = "orange", fill = F, opacity = 1, weight = 10) %>% 
+  addPolygons(data = modis, 
+              group = "MODIS 1km", 
+              color = "yellow", fill = F, opacity = 1, weight = 10) %>% 
+  addPolygons(data = modis_proj, 
+              group = "MODIS 1km, projected",
+              color = "green", fill = F, opacity = 1, weight = 10) %>% 
+  addPolygons(data = tract, 
+              group = "Census tract",
+              color = "blue", fill = F, opacity = 1, weight = 10) %>% 
+  addLayersControl(
+    overlayGroups = c("House", 
+                      "Landsat 30m", 
+                      "Landsat 30m, projected",
+                      "MODIS 1km",
+                      "MODIS 1km, projected",
+                      "Census tract"),
+    options = layersControlOptions(collapsed = FALSE)
+  )
+  
+
+  
