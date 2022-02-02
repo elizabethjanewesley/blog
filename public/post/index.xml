@@ -18,13 +18,68 @@
       <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://elizabethjanewesley.netlify.com/post/2022-02-02-resources-for-bayesian-modelling/</guid>
       <description>&lt;h1 id=&#34;bayesian-modeling-resources&#34;&gt;Bayesian modeling resources&lt;/h1&gt;
-&lt;p&gt;In no particular order:&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/epdf/10.1111/oik.05985&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choosing weakly informative priors&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Lemoine, N. P. (2019). Moving beyond noninformative priors: Why and how to choose weakly informative priors in Bayesian analyses. Oikos, 128(7), 912–928.&lt;/p&gt;
+&lt;p&gt;It can be very difficult to find resources to guide Bayesian modelling that are intelligible to a beginner. I have found the following to be quite helpful. In no particular order:&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/epdf/10.1111/lnc3.12439&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Poisson regression in brms&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Winter, B., &amp;amp; Bürkner, P.C. (2021). Poisson regression for linguists: A tutorial introduction to modelling count data with brms. Language and Linguistics Compass, 15(11), e12439.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/epdf/10.1111/oik.05985&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choosing weakly informative priors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lemoine, N. P. (2019). Moving beyond noninformative priors: Why and how to choose weakly informative priors in Bayesian analyses. Oikos, 128(7), 912–928.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alignment &amp; support</title>
+      <link>https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/</guid>
+      <description>
+&lt;script src=&#34;https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;library(sf)
+library(leaflet)
+library(here)
+library(tidyverse)&lt;/p&gt;
+&lt;p&gt;tract &amp;lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %&amp;gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)&lt;/p&gt;
+&lt;p&gt;modis_proj &amp;lt;- read_sf(dsn = “Data”, layer = “MODIS_projected”) %&amp;gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)&lt;/p&gt;
+&lt;p&gt;modis &amp;lt;- read_sf(dsn = “Data”, layer = “MODIS”) %&amp;gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)&lt;/p&gt;
+&lt;p&gt;ls_proj &amp;lt;- read_sf(dsn = “Data”, layer = “LS_30m_projected”) %&amp;gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)&lt;/p&gt;
+&lt;p&gt;ls &amp;lt;- read_sf(dsn = “Data”, layer = “LS_30m”) %&amp;gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)&lt;/p&gt;
+&lt;p&gt;house &amp;lt;- read_sf(dsn = “Data”, layer = “House”) %&amp;gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)&lt;/p&gt;
+&lt;p&gt;leaflet() %&amp;gt;%
+addProviderTiles(providers$Stamen.TonerLines) %&amp;gt;%
+addMarkers(data = house, group = “House”) %&amp;gt;%
+addPolygons(data = ls,
+group = “Landsat 30m”,
+color = “red”, fill = F, opacity = 1, weight = 10) %&amp;gt;%
+addPolygons(data = ls_proj,
+group = “Landsat 30m, projected”,
+color = “orange”, fill = F, opacity = 1, weight = 10) %&amp;gt;%
+addPolygons(data = modis,
+group = “MODIS 1km”,
+color = “yellow”, fill = F, opacity = 1, weight = 10) %&amp;gt;%
+addPolygons(data = modis_proj,
+group = “MODIS 1km, projected”,
+color = “green”, fill = F, opacity = 1, weight = 10) %&amp;gt;%
+addPolygons(data = tract,
+group = “Census tract”,
+color = “blue”, fill = F, opacity = 1, weight = 10) %&amp;gt;%
+addLayersControl(
+overlayGroups = c(“House”,
+“Landsat 30m”,
+“Landsat 30m, projected”,
+“MODIS 1km”,
+“MODIS 1km, projected”,
+“Census tract”),
+options = layersControlOptions(collapsed = FALSE)
+)&lt;/p&gt;
 </description>
     </item>
     

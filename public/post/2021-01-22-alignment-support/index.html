@@ -29,10 +29,16 @@
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence">
+  <meta name="description" content="library(sf) library(leaflet) library(here) library(tidyverse)
+tract &lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+modis_proj &lt;- read_sf(dsn = “Data”, layer = “MODIS_projected”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+modis &lt;- read_sf(dsn = “Data”, layer = “MODIS”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+ls_proj &lt;- read_sf(dsn = “Data”, layer = “LS_30m_projected”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+ls &lt;- read_sf(dsn = “Data”, layer = “LS_30m”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+house &lt;- read_sf(dsn = “Data”, layer = “House”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://elizabethjanewesley.netlify.com/post/">
+  <link rel="alternate" hreflang="en-us" href="https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/">
 
   
 
@@ -252,14 +258,12 @@
 
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Elizabeth Jane Wesley">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://elizabethjanewesley.netlify.com/post/">
+  <link rel="canonical" href="https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/">
 
   
   
@@ -273,18 +277,69 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Elizabeth Jane Wesley">
-  <meta property="og:url" content="https://elizabethjanewesley.netlify.com/post/">
-  <meta property="og:title" content="Posts | Elizabeth Jane Wesley">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/">
+  <meta property="og:title" content="Alignment &amp; support | Elizabeth Jane Wesley">
+  <meta property="og:description" content="library(sf) library(leaflet) library(here) library(tidyverse)
+tract &lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+modis_proj &lt;- read_sf(dsn = “Data”, layer = “MODIS_projected”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+modis &lt;- read_sf(dsn = “Data”, layer = “MODIS”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+ls_proj &lt;- read_sf(dsn = “Data”, layer = “LS_30m_projected”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+ls &lt;- read_sf(dsn = “Data”, layer = “LS_30m”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)
+house &lt;- read_sf(dsn = “Data”, layer = “House”) %&gt;% st_transform(‘&#43;proj=longlat &#43;datum=WGS84’)"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2021-01-22T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-01-22T10:59:19-06:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/"
+  },
+  "headline": "Alignment \u0026 support",
+  
+  "datePublished": "2021-01-22T00:00:00Z",
+  "dateModified": "2021-01-22T10:59:19-06:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Nelson Bighetti"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Elizabeth Jane Wesley",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://elizabethjanewesley.netlify.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "library(sf) library(leaflet) library(here) library(tidyverse)\ntract \u0026lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %\u0026gt;% st_transform(‘+proj=longlat +datum=WGS84’)\nmodis_proj \u0026lt;- read_sf(dsn = “Data”, layer = “MODIS_projected”) %\u0026gt;% st_transform(‘+proj=longlat +datum=WGS84’)\nmodis \u0026lt;- read_sf(dsn = “Data”, layer = “MODIS”) %\u0026gt;% st_transform(‘+proj=longlat +datum=WGS84’)\nls_proj \u0026lt;- read_sf(dsn = “Data”, layer = “LS_30m_projected”) %\u0026gt;% st_transform(‘+proj=longlat +datum=WGS84’)\nls \u0026lt;- read_sf(dsn = “Data”, layer = “LS_30m”) %\u0026gt;% st_transform(‘+proj=longlat +datum=WGS84’)\nhouse \u0026lt;- read_sf(dsn = “Data”, layer = “House”) %\u0026gt;% st_transform(‘+proj=longlat +datum=WGS84’)"
+}
+</script>
+
+  
 
   
 
@@ -292,10 +347,13 @@
   
 
 
+  
 
 
 
-  <title>Posts | Elizabeth Jane Wesley</title>
+
+
+  <title>Alignment &amp; support | Elizabeth Jane Wesley</title>
 
 </head>
 
@@ -427,161 +485,33 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Alignment &amp; support</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Posts</h1>
-
-  
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-
-  
-
-  
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/2022-02-02-resources-for-bayesian-modelling/" >Resources for Bayesian modelling</a>
-    </h3>
-
-    
-    <div class="article-style">
-      A list of resources to inform Bayesian modelling in R using brms. I have found these to be particularly easy to understand.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    Feb 2, 2022
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/2021-01-22-alignment-support/" >Alignment &amp; support</a>
-    </h3>
-
-    
-    <div class="article-style">
-      library(sf) library(leaflet) library(here) library(tidyverse)
-tract &lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %&gt;% …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -614,107 +544,294 @@ tract &lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %&gt;% …
 
 </div>
 
-      
-    </div>
-
     
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
-    
-  
-    
-      
 
 
+  <div class="article-container">
 
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/cartography-basics/" >Cartography basics</a>
-    </h3>
-
-    
     <div class="article-style">
-      Introduction to the basic principles of visual communication and their application to effective mapmaking.
+      
+<script src="https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>library(sf)
+library(leaflet)
+library(here)
+library(tidyverse)</p>
+<p>tract &lt;- read_sf(dsn = “Data”, layer = “Census_tract”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>modis_proj &lt;- read_sf(dsn = “Data”, layer = “MODIS_projected”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>modis &lt;- read_sf(dsn = “Data”, layer = “MODIS”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>ls_proj &lt;- read_sf(dsn = “Data”, layer = “LS_30m_projected”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>ls &lt;- read_sf(dsn = “Data”, layer = “LS_30m”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>house &lt;- read_sf(dsn = “Data”, layer = “House”) %&gt;%
+st_transform(‘+proj=longlat +datum=WGS84’)</p>
+<p>leaflet() %&gt;%
+addProviderTiles(providers$Stamen.TonerLines) %&gt;%
+addMarkers(data = house, group = “House”) %&gt;%
+addPolygons(data = ls,
+group = “Landsat 30m”,
+color = “red”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = ls_proj,
+group = “Landsat 30m, projected”,
+color = “orange”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = modis,
+group = “MODIS 1km”,
+color = “yellow”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = modis_proj,
+group = “MODIS 1km, projected”,
+color = “green”, fill = F, opacity = 1, weight = 10) %&gt;%
+addPolygons(data = tract,
+group = “Census tract”,
+color = “blue”, fill = F, opacity = 1, weight = 10) %&gt;%
+addLayersControl(
+overlayGroups = c(“House”,
+“Landsat 30m”,
+“Landsat 30m, projected”,
+“MODIS 1km”,
+“MODIS 1km, projected”,
+“Census tract”),
+options = layersControlOptions(collapsed = FALSE)
+)</p>
+
     </div>
+
     
 
-    <div class="stream-meta article-metadata">
 
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
       
-
+      
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/&amp;text=Alignment%20&amp;amp;%20support" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-          Last updated on
       
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/&amp;t=Alignment%20&amp;amp;%20support" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
-    Feb 21, 2020
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Alignment%20&amp;amp;%20support&amp;body=https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/&amp;title=Alignment%20&amp;amp;%20support" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Alignment%20&amp;amp;%20support%20https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://elizabethjanewesley.netlify.com/post/2021-01-22-alignment-support/&amp;title=Alignment%20&amp;amp;%20support" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
       
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://elizabethjanewesley.netlify.com/">Nelson Bighetti</a></h5>
+      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
     </div>
-
-    
-
   </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
 
-    
-  
+
+
+
+
+
+
+
 
   
+  
 
 
-</div>
+
+  </div>
+</article>
 
       
 
