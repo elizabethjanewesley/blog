@@ -3,161 +3,156 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/courses/example/example1/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/courses/example/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/courses/example/example2/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/</loc>
+    <lastmod>2022-02-02T11:08:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/talk/example/</loc>
+    <lastmod>2020-02-16T17:02:33-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/post/2022-02-02-resources-for-bayesian-modelling/</loc>
+    <lastmod>2022-02-02T11:08:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/tags/cartography/</loc>
     <lastmod>2020-02-21T10:29:08-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2020-02-16T17:02:33-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/cartography/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/post/cartography-basics/</loc>
     <lastmod>2020-02-21T10:29:08-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/cartography-basics/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/tags/gis/</loc>
     <lastmod>2020-02-21T10:29:08-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/gis/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/tags/</loc>
     <lastmod>2020-02-21T10:29:08-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/tags/teaching/</loc>
     <lastmod>2020-02-21T10:29:08-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/teaching/</loc>
-    <lastmod>2020-02-21T10:29:08-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/admin/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/authors/admin/</loc>
     <lastmod>2020-02-16T21:52:39-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/publication_types/3/</loc>
     <lastmod>2020-02-16T21:52:39-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/preprint/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/publication/preprint/</loc>
     <lastmod>2020-02-16T21:52:39-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/authors/</loc>
     <lastmod>2020-02-16T21:52:39-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/publication_types/</loc>
     <lastmod>2020-02-16T21:52:39-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/slides/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/slides/example/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/project/external-project/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/project/internal-project/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/project/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/publication_types/2/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/publication/journal-article/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/authors/robert-ford/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/publication_types/1/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/publication/conference-paper/</loc>
+    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elizabethjanewesley.netlify.com/courses/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/terms/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/post/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/journal-article/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/robert-ford/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/conference-paper/</loc>
-    <lastmod>2020-02-16T21:52:39-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/publication/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-02-16T17:02:33-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-02-16T17:02:33-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
+    <loc>https://elizabethjanewesley.netlify.com/talk/</loc>
     <lastmod>2020-02-16T17:02:33-06:00</lastmod>
   </url>
   

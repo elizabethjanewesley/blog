@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Elizabeth Jane Wesley</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://elizabethjanewesley.netlify.com/post/</link>
+      <atom:link href="https://elizabethjanewesley.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://elizabethjanewesley.netlify.com/post/</link>
     </image>
     
     <item>
+      <title>Resources for Bayesian modelling</title>
+      <link>https://elizabethjanewesley.netlify.com/post/2022-02-02-resources-for-bayesian-modelling/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://elizabethjanewesley.netlify.com/post/2022-02-02-resources-for-bayesian-modelling/</guid>
+      <description>&lt;h1 id=&#34;bayesian-modeling-resources&#34;&gt;Bayesian modeling resources&lt;/h1&gt;
+&lt;p&gt;In no particular order:&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/epdf/10.1111/oik.05985&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choosing weakly informative priors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lemoine, N. P. (2019). Moving beyond noninformative priors: Why and how to choose weakly informative priors in Bayesian analyses. Oikos, 128(7), 912–928.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Cartography basics</title>
-      <link>/post/cartography-basics/</link>
+      <link>https://elizabethjanewesley.netlify.com/post/cartography-basics/</link>
       <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/post/cartography-basics/</guid>
+      <guid>https://elizabethjanewesley.netlify.com/post/cartography-basics/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -41,7 +54,7 @@
 &lt;/ul&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/cs-of-communication.jpg&#34; alt=&#34;https://www.open.edu/openlearn&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/cs-of-communication.jpg&#34; alt=&#34;https://www.open.edu/openlearn&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: &lt;a href=&#34;https://www.open.edu/openlearn&#34; class=&#34;uri&#34;&gt;https://www.open.edu/openlearn&lt;/a&gt;
 &lt;/p&gt;
@@ -52,7 +65,7 @@ Figure 1: &lt;a href=&#34;https://www.open.edu/openlearn&#34; class=&#34;uri&#34
 &lt;p&gt;Maps are visual representations of often complex ideas and relationships. The elements of design are the tools at your disposal for effective visual communication. While the interpretation of language is linear—in the case of English it happens from left to right and from top to bottom—visual interpretation does not have a prescribed order. Using design, you must guide the viewer through the map so that they interpret the map’s meaning in the way that you intend.&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-2&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/elements-of-design.jpg&#34; alt=&#34;https://splitcomplementary.blogspot.com/&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/elements-of-design.jpg&#34; alt=&#34;https://splitcomplementary.blogspot.com/&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2: &lt;a href=&#34;https://splitcomplementary.blogspot.com/&#34; class=&#34;uri&#34;&gt;https://splitcomplementary.blogspot.com/&lt;/a&gt;
 &lt;/p&gt;
@@ -63,7 +76,7 @@ Figure 2: &lt;a href=&#34;https://splitcomplementary.blogspot.com/&#34; class=&#
 &lt;p&gt;The principles of design are the ways that you can use the elements of design. These are the ways that you will vary the elements in order to convey the message of your map.&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/principles-of-design.jpg&#34; alt=&#34;https://splitcomplementary.blogspot.com/&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/principles-of-design.jpg&#34; alt=&#34;https://splitcomplementary.blogspot.com/&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 3: &lt;a href=&#34;https://splitcomplementary.blogspot.com/&#34; class=&#34;uri&#34;&gt;https://splitcomplementary.blogspot.com/&lt;/a&gt;
 &lt;/p&gt;
@@ -74,7 +87,7 @@ Figure 3: &lt;a href=&#34;https://splitcomplementary.blogspot.com/&#34; class=&#
 &lt;p&gt;Most maps have many elements in common. While not all maps need to contain all the elements, they all require some. Map elements provide information essential to the interpretation of the map. All maps should be able to stand on their own, meaning that a viewer requires no additional information to understand the map than is available on the map itself. If someone found your map on the ground would they know what it meant?&lt;/p&gt;
 &lt;center&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/elements-of-map.gif&#34; alt=&#34;https://djjr-courses.wikidot.com/&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/elements-of-map.gif&#34; alt=&#34;https://djjr-courses.wikidot.com/&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 4: &lt;a href=&#34;https://djjr-courses.wikidot.com/&#34; class=&#34;uri&#34;&gt;https://djjr-courses.wikidot.com/&lt;/a&gt;
 &lt;/p&gt;
@@ -91,7 +104,7 @@ Figure 4: &lt;a href=&#34;https://djjr-courses.wikidot.com/&#34; class=&#34;uri&
 &lt;li&gt;&lt;p&gt;Experiment with different arrangements of your map elements. Not only should they fit well together, there is an information hierarchy that should be visually enforced. The title and the data you want to emphasize are the most important; they should stand out!&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-5&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/balance.jpg&#34; alt=&#34;https://gistbok.ucgis.org/bok-topics/visual-hierarchy-and-layout&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/balance.jpg&#34; alt=&#34;https://gistbok.ucgis.org/bok-topics/visual-hierarchy-and-layout&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 5: &lt;a href=&#34;https://gistbok.ucgis.org/bok-topics/visual-hierarchy-and-layout&#34; class=&#34;uri&#34;&gt;https://gistbok.ucgis.org/bok-topics/visual-hierarchy-and-layout&lt;/a&gt;
 &lt;/p&gt;
@@ -111,21 +124,21 @@ Figure 5: &lt;a href=&#34;https://gistbok.ucgis.org/bok-topics/visual-hierarchy-
 &lt;h1&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;These are examples of a basic GIS map. The primary purpose of this kind of map to is to relay information; however, maps must be readable to get their point across!&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:bad-map&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/BadMaps-001.jpeg&#34; alt=&#34;A bad GIS map&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/BadMaps-001.jpeg&#34; alt=&#34;A bad GIS map&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 6: A bad GIS map
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This map (Fig. &lt;a href=&#34;#fig:bad-map&#34;&gt;6&lt;/a&gt;) is very bad. Almost unreadable and definitely untrustworthy. What is it even about?&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:better-map&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/BadMaps-002.jpeg&#34; alt=&#34;A better (but still bad!) GIS map&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/BadMaps-002.jpeg&#34; alt=&#34;A better (but still bad!) GIS map&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 7: A better (but still bad!) GIS map
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This map (Fig. &lt;a href=&#34;#fig:better-map&#34;&gt;7&lt;/a&gt;) is better but still not great. We still don’t know what the point is.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:best-map&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/BadMaps-003.jpeg&#34; alt=&#34;A pretty good GIS map&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/BadMaps-003.jpeg&#34; alt=&#34;A pretty good GIS map&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 8: A pretty good GIS map
 &lt;/p&gt;
@@ -148,13 +161,13 @@ Figure 8: A pretty good GIS map
 &lt;h1&gt;&lt;strong&gt;Finally, a couple of my all-time favorite maps&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;Although these are not the kind of informational maps that are usually map in a GIS, they certainly illustrate the possibilities of cartography!&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-6&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/napolean.gif&#34; alt=&#34;Napolean&#39;s March to Moscow, Charles Joseph Minard, 1869, https://www.edwardtufte.com/tufte/&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/napolean.gif&#34; alt=&#34;Napolean&#39;s March to Moscow, Charles Joseph Minard, 1869, https://www.edwardtufte.com/tufte/&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 9: Napolean’s March to Moscow, Charles Joseph Minard, 1869, &lt;a href=&#34;https://www.edwardtufte.com/tufte/&#34; class=&#34;uri&#34;&gt;https://www.edwardtufte.com/tufte/&lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-7&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/img/basics-of-cartography/sm_fisk02.jpg&#34; alt=&#34;The alluvial valley of the lower Mississippi River, Harold Fisk, 1944, http://www.radicalcartography.net/index.html?fisk&#34; width=&#34;100%&#34; /&gt;
+&lt;img src=&#34;https://elizabethjanewesley.netlify.com/img/basics-of-cartography/sm_fisk02.jpg&#34; alt=&#34;The alluvial valley of the lower Mississippi River, Harold Fisk, 1944, http://www.radicalcartography.net/index.html?fisk&#34; width=&#34;100%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 10: The alluvial valley of the lower Mississippi River, Harold Fisk, 1944, &lt;a href=&#34;http://www.radicalcartography.net/index.html?fisk&#34; class=&#34;uri&#34;&gt;http://www.radicalcartography.net/index.html?fisk&lt;/a&gt;
 &lt;/p&gt;
