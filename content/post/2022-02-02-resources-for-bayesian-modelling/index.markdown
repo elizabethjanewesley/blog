@@ -18,9 +18,10 @@ projects: []
 profile: false
 ---
 
-# Bayesian modeling resources
 
-It can be very difficult to find resources to guide Bayesian modelling that are intelligible to a beginner. I have found the following to be quite helpful. In no particular order:
+It can be very difficult to find resources to guide Bayesian modelling that are intelligible to a beginner. I have found the following to be quite helpful. 
+
+In no particular order:
 
 [Poisson regression in brms](https://onlinelibrary.wiley.com/doi/epdf/10.1111/lnc3.12439)
 

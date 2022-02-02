@@ -81,8 +81,8 @@
       <link>https://elizabethjanewesley.netlify.com/post/2022-02-02-resources-for-bayesian-modelling/</link>
       <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://elizabethjanewesley.netlify.com/post/2022-02-02-resources-for-bayesian-modelling/</guid>
-      <description>&lt;h1 id=&#34;bayesian-modeling-resources&#34;&gt;Bayesian modeling resources&lt;/h1&gt;
-&lt;p&gt;It can be very difficult to find resources to guide Bayesian modelling that are intelligible to a beginner. I have found the following to be quite helpful. In no particular order:&lt;/p&gt;
+      <description>&lt;p&gt;It can be very difficult to find resources to guide Bayesian modelling that are intelligible to a beginner. I have found the following to be quite helpful.&lt;/p&gt;
+&lt;p&gt;In no particular order:&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/epdf/10.1111/lnc3.12439&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Poisson regression in brms&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Winter, B., &amp;amp; Bürkner, P.C. (2021). Poisson regression for linguists: A tutorial introduction to modelling count data with brms. Language and Linguistics Compass, 15(11), e12439.&lt;/p&gt;
